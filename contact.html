@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kontakt | EduPlatform</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">EduPlatform</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Bosh sahifa</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">Biz haqimizda</a></li>
+          <li class="nav-item"><a class="nav-link" href="lessons.html">Darslar</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Aloqa</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="py-5 bg-primary text-white text-center">
+    <div class="container">
+      <h1 class="display-4">Bog‘lanish</h1>
+      <p class="lead">Biz bilan bog‘lanish uchun quyidagi ma’lumotlardan foydalaning yoki formani to‘ldiring.</p>
+    </div>
+  </header>
+
+  <!-- Contact Info + Form -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-5">
+        <!-- Contact Info -->
+        <div class="col-md-5">
+          <h3>TATU Qarshi filiali</h3>
+          <p><strong>Manzil:</strong> Qarshi shahri, Beshkent yo‘li, TATU Qarshi filiali</p>
+          <p><strong>Telefon:</strong> +998 (75) 123-45-67</p>
+          <p><strong>Email:</strong> info@tatuqf.uz</p>
+          <hr>
+          <h5>Ofisimiz joylashuvi:</h5>
+          <!-- TATU Qarshi manzili uchun Google Map -->
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2812.7519943722723!2d65.72537007540191!3d38.8280604507932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4eaf243eb7c897%3A0xbeaf0d26766eee66!2sTATU%20QF!5e1!3m2!1suz!2sus!4v1749365719171!5m2!1suz!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-md-7">
+          <h3>Bizga xabar yuboring</h3>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Ismingiz</label>
+              <input type="text" class="form-control" id="name" placeholder="Ismingizni kiriting" required />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email manzilingiz</label>
+              <input type="email" class="form-control" id="email" placeholder="email@example.com" required />
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label">Mavzu</label>
+              <input type="text" class="form-control" id="subject" placeholder="Xabaringiz mavzusi" />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Xabaringiz</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Xabaringizni yozing..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Yuborish</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light py-4 text-center mt-5">
+    <div class="container">
+      <p class="mb-0">© 2025 2025 Informatika va AT.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

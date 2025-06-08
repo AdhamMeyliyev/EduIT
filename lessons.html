@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Darslar | Informatika va AT</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    .lesson-card {
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      margin-bottom: 30px;
+      overflow: hidden;
+    }
+    iframe {
+      border-radius: 5px;
+      width: 100%;
+      height: 250px;
+    }
+    .accordion-button:not(.collapsed) {
+      background-color: #00b074;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-success" href="index.html">
+        <i class="bi bi-laptop"></i> Informatika & AT
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Bosh sahifa</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="lessons.html">Darslar</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Aloqa</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="py-5 bg-light text-center">
+    <div class="container">
+      <h2 class="fw-bold">📘 Darslar</h2>
+      <p class="text-muted">Har bir dars video, izoh va ko'proq ma'lumotlar bilan</p>
+    </div>
+  </section>
+
+  <!-- Lessons -->
+  <section class="container py-5">
+    <div class="row">
+      
+      <!-- Dars 1 -->
+      <div class="col-md-6">
+        <div class="lesson-card p-3">
+          <h5 class="fw-bold text-success">1. Kompyuter nima?</h5>
+         <iframe width="853" height="480" src="https://www.youtube.com/embed/Erv014XqC9Y" title="1. Kompyuter nima va qanday qismlardan iborat?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <p class="mt-2">Bu darsda kompyuter tushunchasi, qismlari va ularning vazifalari haqida o‘rganamiz.</p>
+          <div class="accordion" id="faq1">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                  Ko'proq
+                </button>
+              </h2>
+              <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#faq1">
+                <div class="accordion-body">
+                  Kompyuter — bu axborotni qabul qiluvchi, qayta ishlovchi va saqlovchi qurilma. Bu darsda uning tarixi va ahamiyati haqida ham bilib olasiz.
+									<br>
+									<br>
+									<a href="https://youtu.be/PyF6NuNaVLk"><button type="button" class="btn btn-outline-dark">YouTube Link / Bosing va o'rganing</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dars 2 -->
+      <div class="col-md-6">
+        <div class="lesson-card p-3">
+          <h5 class="fw-bold text-success">2. Operatsion tizimlar</h5>
+          <iframe width="853" height="480" src="https://www.youtube.com/embed/jBYEKl-IoBg?list=PLFRnhpV9odGCOxxTQHfbdYI2NTTIn4_ZM" title="Operatsion tizimlar. 1-dars. Kirish" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <p class="mt-2">Operatsion tizimlar va ularning turlari haqida umumiy tushuncha.</p>
+          <div class="accordion" id="faq2">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                  Ko'proq
+                </button>
+              </h2>
+              <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#faq2">
+                <div class="accordion-body">
+                  Windows, Linux va MacOS kabi operatsion tizimlar qanday ishlashini va foydalanuvchi uchun qanday qulayliklar yaratishini o‘rganamiz.
+									<br>
+									<br>
+									<a href="https://youtu.be/jBYEKl-IoBg?list=PLFRnhpV9odGCOxxTQHfbdYI2NTTIn4_ZM"><button type="button" class="btn btn-outline-dark">YouTube Link / Bosing va o'rganing</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dars 3 -->
+      <div class="col-md-6">
+        <div class="lesson-card p-3">
+          <h5 class="fw-bold text-success">3. Internet va uning ishlash prinsipi</h5>
+          <iframe width="853" height="480" src="https://www.youtube.com/embed/XXVHKbpknHg" title="Internet qanday ishlaydi? Internet nima? | Texnoplov [RUS sub]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <p class="mt-2">Internet qanday ishlaydi va asosiy protokollar nimalardan iborat?</p>
+          <div class="accordion" id="faq3">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+                  Ko'proq
+                </button>
+              </h2>
+              <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#faq3">
+                <div class="accordion-body">
+                  IP-manzil, DNS va brauzer qanday ishlashini tushuntiramiz. Internet xavfsizligi ham yoritiladi.
+									<br>
+									<br>
+									<a href="https://youtu.be/VpDv0TBI18g"><button type="button" class="btn btn-outline-dark">YouTube Link / Bosing va o'rganing</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dars 4 -->
+      <div class="col-md-6">
+        <div class="lesson-card p-3">
+          <h5 class="fw-bold text-success">4. HTML asoslari</h5>
+          <iframe width="768" height="480" src="https://www.youtube.com/embed/9dUhZq9dkHM?list=PLpDyZ4xZcDg_aAzP6pDD1PRsYCSdheveS" title="HTMLda dasturlash | 0. Kurs haqida" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <p class="mt-2">Veb sahifa tuzish uchun HTML elementlari bilan tanishamiz.</p>
+          <div class="accordion" id="faq4">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+                  Ko'proq
+                </button>
+              </h2>
+              <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#faq4">
+                <div class="accordion-body">
+                  HTMLda taglar, atributlar va strukturani qanday tuzish kerakligi bo‘yicha misollar bilan tushuntiriladi.
+									<br>
+									<br>
+									<a href="https://youtu.be/9dUhZq9dkHM?list=PLpDyZ4xZcDg_aAzP6pDD1PRsYCSdheveS"><button type="button" class="btn btn-outline-dark">YouTube Link / Bosing va o'rganing</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dars 5 -->
+      <div class="col-md-6">
+        <div class="lesson-card p-3">
+          <h5 class="fw-bold text-success">5. CSS bilan bezatish</h5>
+          <iframe width="853" height="480" src="https://www.youtube.com/embed/WVHcX-oYlgA?list=PLNS3PujVHR-aja5e5h24WGmr1FyaO9JWW" title="001. Kirish" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <p class="mt-2">Saytga chiroyli ko‘rinish berish uchun CSSdan foydalanamiz.</p>
+          <div class="accordion" id="faq5">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+                  Ko'proq
+                </button>
+              </h2>
+              <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#faq5">
+                <div class="accordion-body">
+                  Rangi, font, fon rasm, padding va margin tushunchalarini CSS orqali amaliy tarzda ko‘rsatamiz.
+									<br>
+									<br>
+									<a href="https://youtu.be/WVHcX-oYlgA?list=PLNS3PujVHR-aja5e5h24WGmr1FyaO9JWW"><button type="button" class="btn btn-outline-dark">YouTube Link / Bosing va o'rganing</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dars 6 -->
+      <div class="col-md-6">
+        <div class="lesson-card p-3">
+          <h5 class="fw-bold text-success">6. JavaScript kirish</h5>
+          <iframe width="853" height="480" src="https://www.youtube.com/embed/zJuDsji3IbE?list=PLNS3PujVHR-ay0HpqbsPWccgEhJZk6K9u" title="001.  Kursga kirish | JavaScript O&#39;zbekcha" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <p class="mt-2">Veb sahifaga interaktivlik qo‘shish uchun JavaScript imkoniyatlarini o‘rganamiz.</p>
+          <div class="accordion" id="faq6">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6">
+                  Ko'proq
+                </button>
+              </h2>
+              <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#faq6">
+                <div class="accordion-body">
+                  JS sintaksisi, o‘zgaruvchilar, funksiyalar, DOM bilan ishlash misollari orqali ko‘rsatiladi.
+									<br>
+									<br>
+									<a href="https://youtu.be/zJuDsji3IbE?list=PLNS3PujVHR-ay0HpqbsPWccgEhJZk6K9u"><button type="button" class="btn btn-outline-dark">YouTube Link / Bosing va o'rganing</button></a>
+                </div>
+
+								
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p class="mb-1">&copy; 2025 Informatika va AT. </p>
+      <div class="social-icons">
+        <a href="#" class="text-white me-3"><i class="bi bi-youtube"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-telegram"></i></a>
+        <a href="#" class="text-white"><i class="bi bi-envelope-fill"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
